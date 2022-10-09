@@ -11,6 +11,7 @@
 [Performance monitoring options for further research](./performance-reporting-options.md)
 
 <br>
+
 ---
 
 There are several guides for kernel developers and users. These guides can
