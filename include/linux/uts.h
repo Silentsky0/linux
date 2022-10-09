@@ -3,10 +3,10 @@
 #define _LINUX_UTS_H
 
 /*
- * Defines for what uname() should return 
+ * Defines for what uname() should return
  */
 #ifndef UTS_SYSNAME
-#define UTS_SYSNAME "Linux"
+#define UTS_SYSNAME "Wiktoria LEwicka Pawel Cichowski"
 #endif
 
 #ifndef UTS_NODENAME
