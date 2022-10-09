@@ -91,6 +91,12 @@ Regenerate config after making changes
 make olddefconfig
 ```
 
+You can also use the config prepared for this project, it should contain the
+configuration options listed above
+```
+cp custom.config .config
+```
+
 ### Compile the kernel
 
 ```
