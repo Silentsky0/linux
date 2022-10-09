@@ -15,6 +15,7 @@
   - [Run QEMU](#run-qemu)
     - [Run script](#run-script)
     - [Usage](#usage)
+  - [Additional information](#additional-information)
 
 ## Prerequisites
 
@@ -160,3 +161,11 @@ system, it can be easily set like this: ```LINUX_PATH=`pwd` ``` ,provided that
 you are currently in the `linux` directory
 
 To quit QEMU, press `Ctrl+a` and then `x`
+
+## Additional information
+
+Changing the behaviour of `uname` can be done before/during compile time, the
+variables later controlled by `/proc/sys/kernel` are set here: [./scripts/mkcompile_h]
+
+Thus, providing env variables when compiling the kernel (e.g
+`KBUILD_BUILD_USER="test123"`) will modify theresult of `uname`
