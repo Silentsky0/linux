@@ -1,5 +1,12 @@
-Linux kernel
-============
+# Linux kernel compilation and optimization
+
+### Project for Computer System Administration course
+
+---
+<br>
+
+
+[Build guide and QEMU setup](./linux-kernel-qemu-setup.md)
 
 There are several guides for kernel developers and users. These guides can
 be rendered in a number of formats, like HTML and PDF. Please read
