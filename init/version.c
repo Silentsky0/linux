@@ -22,7 +22,7 @@
 struct uts_namespace init_uts_ns = {
 	.ns.count = REFCOUNT_INIT(2),
 	.name = {
-		.sysname	= "test123",
+		.sysname	= UTS_SYSNAME,
 		.nodename	= UTS_NODENAME,
 		.release	= UTS_RELEASE,
 		.version	= UTS_VERSION,
